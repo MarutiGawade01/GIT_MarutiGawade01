@@ -1,6 +1,33 @@
 
-This is Maruti Gawade.
+Maruti Gawade
 
 Testing for git diff command.
 
 git diff : That will show the difference between your current working directory/file and staged file/directory.
+
+git diff --staged  : this command will show the difference between the last commit and staged directory/file.
+
+git status
+git log
+git diff   (diff between working directory & staaged directory)
+git diff --staged (diff between last commit and staged for directory)
+
+initial git setup (by gitbash cli):
+
+
+git config --global user.name "Maruti Gawade"
+git config --global user.email "marutigawade01@gmail.com"
+
+to create and add SSH/GPG key for remote access:
+
+ssh-keygen -t rsa -b 4096 -C "marutigawade01@gmail.com"
+eval `ssh-agent -s`
+ssh-add ~/.ssh/id_rsa
+tail  ~/.ssh/id_rsa.pub
+git remote  (to check remote directory name)
+
+git remote add origin git@github.com:/MarutiGawade01/GIT_MarutiGawade01.git
+git remote
+git push -u origin main
+
+
