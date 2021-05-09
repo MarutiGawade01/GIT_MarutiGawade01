@@ -1,2 +1,6 @@
 
-This is Maruti Gawade
+This is Maruti Gawade.
+
+Testing for git diff command.
+
+git diff : That will show the difference between your current working directory/file and staged file/directory.
